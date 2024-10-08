@@ -1,11 +1,39 @@
-<!doctype html>
-<html>
-  <head>
-<meta charset="utf-8" />
-	<title>Hello World</title>
-  </head>
-  <body>
-<h1>Introduction</h1>
-<p>I am <em>Miguel</em> hola mamá </p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .row {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            cursor: pointer;
+        }
+        .row:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Main Page</h1>
+    <div class="row" onclick="window.location.href='subpage01.html'">
+        <h2>Text01</h2>
+    </div>
+    <div class="row" onclick="window.location.href='subpage02.html'">
+        <h2>Text02</h2>
+    </div>
+    <div class="row" onclick="window.location.href='subpage03.html'">
+        <h2>Text03</h2>
+    </div>
+
+</body>
 </html>
